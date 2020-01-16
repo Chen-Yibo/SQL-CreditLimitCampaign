@@ -4,6 +4,7 @@ SELECT * FROM change_record LIMIT 20;
 SELECT * FROM decision LIMIT 20;
 SELECT * FROM letter LIMIT 20;
 
+
 -- 1.
 SELECT call_date, COUNT(acct_num) AS number_calls FROM call_record GROUP BY call_date;
 /*【看题看题看题！！！！】上边是：Check how many calls in and respond every day*/
